@@ -1,0 +1,64 @@
+
+*{
+    border-style:solid;
+    border-width:1px;   
+    padding:0;
+    margin:0;
+}
+
+#wrapper{
+
+}
+h1{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+#header{
+    background-color:white;
+}
+#header_content{
+    width:960px;
+    background-color:#4aaaa5;
+    display:flex;
+    justify-content:center;
+}
+#my_name{
+    font-color:white;
+    font-size:10px;
+}
+#content_box{
+    background-image:url("./assets/images/hotel-wallpaper.png");
+    border-color:red;
+}
+#content_inside{
+    border-color:blue;
+    width:960px;
+    margin:50px;
+    margin-top:20px;
+    margin-bottom:20px;
+    display:flex;
+    justify-content:center;
+}
+#about_me{
+    float:left;
+    font-size:10px;
+    width:100%;
+}
+#divider{
+    border-top: 8px solid #4aaaa5;
+    width:100%;
+}
+#bio_pic{
+    height:100px;
+    float:left;
+}
+#bio_text{
+    float:right;
+}
+#footer{
+    border-top: 8px solid #4aaaa5;
+    background-color:#666666;
+    display:flex;
+    justify-content:center;
+
+}
