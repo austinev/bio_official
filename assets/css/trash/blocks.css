@@ -1,0 +1,118 @@
+
+*{
+    border-style:solid;
+    border-width:1px;  
+    padding:0;
+    margin:0; 
+}
+
+#wrapper{
+   
+    
+}
+h1{
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+#header{
+    background-color:white;
+}
+#header_content{
+    width:960px;
+   
+    display:flex;
+    justify-content:center;
+    float:center;
+}
+#my_name{
+    font-color:white;
+    font-size:10px;
+    width:20%;
+    height:50px;
+    font-size:10px;
+    color:white;
+    background-color:#4aaaa5;
+    float:left;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    flex-direction:column;
+    justify-content:center;
+    align-content:space-around;
+    /* padding-left:20px; */
+    text-align:center;
+}
+#spacer{
+    width:50%;
+}
+#links{
+    float:right;
+    width:30%;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+   
+    align-content:space-between;
+    /* padding-left:20px; */
+    text-align:center;
+}
+#content_box{
+    
+    /* background-color:purple; */
+    background-image: url(../circle_blues.png);
+    background-repeat:  round;
+
+
+   border-color:blue;
+    width:960px;
+    margin:50px;
+    margin-top:20px;
+    margin-bottom:20px;
+         padding:500px;
+    display:flex;
+    justify-content:center;
+    
+}
+#content_inside{
+    /* border-color:blue;
+    
+    width:960px;
+    margin:50px;
+    margin-top:20px;
+    margin-bottom:20px;
+    display:flex;
+    justify-content:center; */
+    padding:100px;
+    
+  
+
+}
+#about_me{
+    /* float:left; */
+    font-size:10px;
+    /* width:100%; */
+    background-color:red;
+}
+#divider{
+    border-top: 8px solid #4aaaa5;
+    width:100%;
+    float:left;
+}
+#bio_combo{
+    float:left;
+}
+#bio_pic{
+    height:100px;
+    /* float:left; */
+}
+#bio_text{
+    /* float:right; */
+}
+#footer{
+    border-top: 8px solid #4aaaa5;
+    background-color:#666666;
+    display:flex;
+    justify-content:center;
+
+}
