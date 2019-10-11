@@ -145,3 +145,20 @@ input{
     color:white;
     background-color:#4aaaa5;
 }
+
+.portfolio_pic{
+    width:160px;
+    height:100px;
+}
+
+.portfolio_link{
+    background-color:#4aaaa5;
+    color:white;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    width:160px;
+}
+
+#hangman_div{
+    border-style:solid;
+
+}
