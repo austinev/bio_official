@@ -83,16 +83,21 @@
     margin-bottom:0px;
 }
 #header_space{
-    width:40%;
-    /* border-style:solid; */
+    width:30%;
+    /* border-style:solid;  */
     float:left;
 }
 #links{
     width:30%;
     padding-top:5px;
-    /* border-style:solid; */
+    /* border-style:solid;  */
     float:right;
-    
+    margin-right:25px;
+}
+
+li{
+    display:inline;
+    margin-left:10px;
 }
 a{
     color:#777777;
