@@ -152,8 +152,8 @@ input{
 }
 
 .portfolio_pic{
-    width:160px;
-    height:100px;
+    width:100%;
+    height:100%;
 }
 
 .portfolio_link{
@@ -161,9 +161,24 @@ input{
     color:white;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     width:160px;
+    /* border-style:solid; */
+    padding-top:5px;
+    padding-bottom:5px;
+    
+    display:flex;
+    justify-content:center;
 }
 
-#hangman_div{
-    border-style:solid;
+.box{
+    /* border-style:solid; */
+    /* position:absolute;  */
+    background-color:pink;
+    width:160px;
+    height:100px;
+    margin:20px;
 
+}
+.portfolio_link{
+    position:relative;
+    top:-38px;
 }
