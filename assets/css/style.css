@@ -176,9 +176,17 @@ input{
     width:160px;
     height:100px;
     margin:20px;
+    float:left;
 
 }
 .portfolio_link{
     position:relative;
     top:-38px;
+}
+
+#box_for_portfolio_boxes{
+    
+    height:600px;
+    width:550px;
+
 }
